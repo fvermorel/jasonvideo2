@@ -60,7 +60,7 @@
               <source src="son/a1.mp3" autostart="false" type="audio/mpeg"  >
             </audio>
           </div>
-          <div class="texte"> <span class="titre"><center>Le roi de Crète test 10h07</center></span>
+          <div class="texte"> <span class="titre"><center>Le roi de Crète test 10h25</center></span>
             ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br /> 
             C'&eacute;tait le temps du roi Minos, le fils de Zeus et de la mortelle Europe. Il r&eacute;gnait sur toute l'Île de Cr&egrave;te mais son pouvoir s'&eacute;tendait encore plus loin : toute les cit&eacute;s grecques lui versaient un tribut. Depuis de longues ann&eacute;es, il &eacute;tait mari&eacute; avec Pasipha&eacute; qui lui avait donn&eacute; beaucoup d'enfants. Ses sujets le craignaient et le respectaient car il &eacute;tait s&eacute;v&egrave;re mais juste et il ne privil&eacute;giait pas plus ses amis qu'il n'accablait ses adversaires. Aussi, sous son r&egrave;gne, le royaume de Cr&egrave;te avait atteint une splendeur jusqu'alors in&eacute;gal&eacute;e. </div>
         </div>
@@ -203,7 +203,7 @@
 $('#next1').click(
    function(){
 	
-     
+     mySwiper.swipeNext()
      var video2 = $('#videotest2').get(0);
       video2.play();
 	   
@@ -214,7 +214,7 @@ $('#next1').click(
 	
 	return false;
 	
-	mySwiper.swipeNext()
+	
    }
  
 );
@@ -223,7 +223,7 @@ $('#next1').click(
 $('#next2').click(
    function(){
 	
-     
+     mySwiper.swipeNext()
      var video3 = $('#videotest3').get(0);
       video3.play();
 	  
@@ -233,7 +233,7 @@ $('#next2').click(
 	
 	return false;
 	
-	mySwiper.swipeNext()
+	
    }
 );
 
@@ -241,7 +241,7 @@ $('#next2').click(
 $('#next3').click(
    function(){
 	
-     
+     mySwiper.swipeNext()
      var video4 = $('#videotest4').get(0);
       video4.play();
 	  
@@ -251,14 +251,14 @@ $('#next3').click(
 	
 	return false;
 	
-	mySwiper.swipeNext()
+	
    }
 );
 
 $('#prev2').click(
    function(){
 	
-     
+     mySwiper.swipePrev()
      var video1 = $('#videotest1').get(0);
       video1.play();
 	  
@@ -267,14 +267,14 @@ $('#prev2').click(
       video2.pause(); 
 	
 	return false;
-	mySwiper.swipePrev()
+	
    }
 );
 
 $('#prev3').click(
    function(){
 	
-     
+     mySwiper.swipePrev()
      var video2 = $('#videotest2').get(0);
       video2.play();
 	  
@@ -283,14 +283,14 @@ $('#prev3').click(
       video3.pause(); 
 	
 	return false;
-	mySwiper.swipePrev()
+	
    }
 );
 
 $('#prev4').click(
    function(){
 	
-     
+     mySwiper.swipePrev()
      var video3 = $('#videotest3').get(0);
       video3.play();
 	  
@@ -299,7 +299,7 @@ $('#prev4').click(
       video4.pause(); 
 	
 	return false;
-	mySwiper.swipePrev()
+	
    }
 );
 
