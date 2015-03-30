@@ -206,12 +206,15 @@ $('#next1').click(
      
      var video2 = $('#videotest2').get(0);
       video2.play();
+	   
 	  
       return false;
 	   var video1 = $('#videotest1');
       video1.pause(); 
 	
 	return false;
+	
+	mySwiper.swipeNext()
    }
  
 );
@@ -229,6 +232,8 @@ $('#next2').click(
       video2.pause(); 
 	
 	return false;
+	
+	mySwiper.swipeNext()
    }
 );
 
@@ -245,6 +250,8 @@ $('#next3').click(
       video3.pause(); 
 	
 	return false;
+	
+	mySwiper.swipeNext()
    }
 );
 
@@ -260,6 +267,7 @@ $('#prev2').click(
       video2.pause(); 
 	
 	return false;
+	mySwiper.swipePrev()
    }
 );
 
@@ -275,6 +283,7 @@ $('#prev3').click(
       video3.pause(); 
 	
 	return false;
+	mySwiper.swipePrev()
    }
 );
 
@@ -290,6 +299,7 @@ $('#prev4').click(
       video4.pause(); 
 	
 	return false;
+	mySwiper.swipePrev()
    }
 );
 
@@ -450,14 +460,14 @@ $('#prev4').click(
 		$('#voix4').pauseMedia();
 	});
 	
-	 $('.arrow-left').on('click', function(e){
+	/* $('.arrow-left').on('click', function(e){
 
     mySwiper.swipePrev()
   })
   $('.arrow-right').on('click', function(e){
    
     mySwiper.swipeNext()
-  })
+  })*/
   </script> 
 <script src="js/encart.js"></script>
 <script src="js/loading.js"></script> 
