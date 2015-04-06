@@ -212,7 +212,8 @@
 		$('#voix2').playMedia();
     $('#videotest2').playMedia();
 	
-		
+		$('#bruit1').pauseMedia();
+		$('#voix1').pauseMedia();
 		$('#videotest1').pauseMedia();
 		
 	
@@ -231,16 +232,17 @@
 
 
 $('#next2').click(function(){
-    $('#videotest3').playMedia();
+    
 		$("#bruit3").playMedia();
 		setTimeout (function(){
 		$("#voix3").playMedia();
 		},2000);
+		$('#videotest3').playMedia();
 		
-	$('#videotest2').pauseMedia();
+	
 	$('#voix2').pauseMedia();
 	$("#bruit2").pauseMedia(); 
-		
+		$('#videotest2').pauseMedia();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -253,18 +255,19 @@ $('#next2').click(function(){
 });
 
 $('#next3').click(function(){
-    $('#videotest4').playMedia();
+    
 		$("#bruit4").playMedia();
 		setTimeout (function(){
 		$("#voix4").playMedia();
 		},2000);
 				$(".bulle41").css("animation-play-state", "running");
 				$(".bulle42").css("animation-play-state", "running");
+				$('#videotest4').playMedia();
 		
-	$('#videotest3').pauseMedia();
+	
 	$('#voix3').pauseMedia();
 	$("#bruit3").pauseMedia(); 
-		
+		$('#videotest3').pauseMedia();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -278,16 +281,17 @@ $('#next3').click(function(){
 
 
 $('#prev2').click(function(){
-    $('#videotest1').playMedia();
+    
 		$("#bruit1").playMedia();
 		setTimeout (function(){
 		$("#voix1").playMedia();
 		},2000);
+		$('#videotest1').playMedia();
 		
-	$('#videotest2').pauseMedia();
+	
 	$('#voix2').pauseMedia();
 	$("#bruit2").pauseMedia(); 
-		
+		$('#videotest2').pauseMedia();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -301,16 +305,17 @@ $('#prev2').click(function(){
 });
 
 $('#prev3').click(function(){
-    $('#videotest2').playMedia();
+    
 		$("#bruit2").playMedia();
 		setTimeout (function(){
 		$("#voix2").playMedia();
 		},2000);
+		$('#videotest2').playMedia();
 		
-	$('#videotest3').pauseMedia();
+	
 	$('#voix3').pauseMedia();
 	$("#bruit3").pauseMedia(); 
-		
+		$('#videotest3').pauseMedia();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -325,18 +330,19 @@ $('#prev3').click(function(){
 
 
 $('#prev4').click(function(){
-    $('#videotest3')[0].play();
+  
 		$("#bruit3").playMedia();
 		setTimeout (function(){
 		$("#voix3").playMedia();
 		},2000);
+		  $('#videotest3').playMedia();
 		
-	$('#videotest4').pauseMedia();
+	
 	$('#voix4').pauseMedia();
 	$("#bruit4").pauseMedia(); 
 		$(".bulle41").css("animation-play-state", "paused");
 		$(".bulle42").css("animation-play-state", "paused");
-		
+		$('#videotest4').pauseMedia();
 	
 	$( ".swiper-wrapper" ).animate({
   
