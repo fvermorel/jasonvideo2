@@ -966,7 +966,14 @@ opacity:1;
  background-position:77% 0%;
 }
 }
-#next1 {
-z-index: 150;
-position: absolute;
-left: 200px }
+
+
+.chapitre1{
+	width: 4096px; 
+	height: 768px;
+}
+.swiper-slide {
+	width: 1024px;
+  height: 768px;
+	
+}
