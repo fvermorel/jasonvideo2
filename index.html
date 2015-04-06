@@ -62,7 +62,7 @@
               <source src="son/a1.mp3" autostart="false" type="audio/mpeg"  >
             </audio>
           </div>
-          <div class="texte"> <span class="titre"><center>Le roi de Crète test 5 avril 10h46</center></span>
+          <div class="texte"> <span class="titre"><center>Le roi de Crète test 5 avril 10h50</center></span>
             ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br /> 
             C'&eacute;tait le temps du roi Minos, le fils de Zeus et de la mortelle Europe. Il r&eacute;gnait sur toute l'Île de Cr&egrave;te mais son pouvoir s'&eacute;tendait encore plus loin : toute les cit&eacute;s grecques lui versaient un tribut. Depuis de longues ann&eacute;es, il &eacute;tait mari&eacute; avec Pasipha&eacute; qui lui avait donn&eacute; beaucoup d'enfants. Ses sujets le craignaient et le respectaient car il &eacute;tait s&eacute;v&egrave;re mais juste et il ne privil&eacute;giait pas plus ses amis qu'il n'accablait ses adversaires. Aussi, sous son r&egrave;gne, le royaume de Cr&egrave;te avait atteint une splendeur jusqu'alors in&eacute;gal&eacute;e. </div>
         </div>
@@ -206,7 +206,12 @@
 	 
 	$('#next1').click(function(){
     $('#videotest2').playMedia();
+		$("#bruit2").playMedia();
+		setTimeout (function(){
+		$("#voix2").playMedia();
+		},2000);
 		
+
 		
 	
 	$( ".swiper-wrapper" ).animate({
@@ -315,7 +320,7 @@ $('#prev3').click(function(){
 
 
 $('#prev4').click(function(){
-    $('#videotest3').playMedia();
+    $('#videotest3')[0].play();
 		$("#bruit3").playMedia();
 		setTimeout (function(){
 		$("#voix3").playMedia();
