@@ -17,9 +17,12 @@
 Basic Swiper Styles 
 ================================================================*/
 .swiper-container {
-	margin:0 auto;
-	position:relative;
-	overflow:hidden;
+	width: 1024px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  height: 768px;
+  text-align: center;
+  position:relative;
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 	-ms-backface-visibility:hidden;
@@ -27,6 +30,7 @@ Basic Swiper Styles
 	backface-visibility:hidden;
 	/* Fix of Webkit flickering */
 	z-index:1;
+	overflow: hidden
 }
 .swiper-wrapper {
 	position:relative;

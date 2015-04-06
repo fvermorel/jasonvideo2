@@ -35,8 +35,9 @@
 
 <!--  -->
 
-<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
+
 <div class="swiper-container">
+<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
   <div class="swiper-wrapper">
     <div class="swiper-slide page1" data-hash="slide1">
       <div id="text">
@@ -205,7 +206,7 @@
  $( document ).ready(function() {
 	 
 	$('#next1').click(function(){
-    $('#videotest1')[0].play();
+    $('#videotest2')[0].play();
 });
 
         
@@ -460,7 +461,7 @@ $('#prev4').click(
   }
   
   )
-  $('.arrow-right').on('click', function(e){
+  $('#next1').on('click', function(e){
    
     mySwiper.swipeNext()
   })
